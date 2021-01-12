@@ -39,6 +39,7 @@ def get_filters():
              'view data for all cities: ').lower().replace(', ',',').strip().split(',')
 
     #nested loop to make sure someone enters an appropriate city
+    #NOTE: will not accept 'all' if someone enters an invalid city and has to loop
     if 'all' in cities:
         cities = ['chicago','washington','new york city']
     else:
@@ -59,6 +60,7 @@ def get_filters():
                   ' data for all months: ').lower().replace(', ',',').split(',')
 
     #and another prompt if they don't enter a valid month or 'no'
+    #NOTE: will not accept 'all' if someone enters an invalid month and has to loop
     if 'all' in months:
         months = list(month_names.values())
     else:
@@ -79,6 +81,7 @@ def get_filters():
                   ' data for all days of the week: ').lower().replace(', ',',').split(',')
 
     #and another prompt if they don't enter a valid month or 'no'
+    #NOTE: will not accept 'all' if someone enters an invalid day and has to loop
     if 'all' in days:
         days = list(day_names.values())
     else:
