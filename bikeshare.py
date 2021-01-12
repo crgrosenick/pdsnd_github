@@ -156,7 +156,7 @@ def time_stats(df):
 
     # Adding an A.M./P.M. to aid in understandability
     if common_hour >= 12:
-        if common_hour > 13:
+        if common_hour >= 13:
             common_hour -= 12
         suffix = 'P.M.'
     else:
