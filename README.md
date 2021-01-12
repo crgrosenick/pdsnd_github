@@ -1,15 +1,17 @@
 ### Date created
-Include the date you created this project and README file.
+1/12/21
 
 ### Project Title
-Replace the Project Title
+Bikeshare Usage in the U.S.
 
 ### Description
-Describe what your project is about and what it does
+This project was created on 1/12/21 as part of the Udacity Programming for Data Science Nanodegree Program. This program calculates bikeshare statistics to understand how and when customers use a bikeshare program in three major U.S. cities. Through this analysis, we might better understand demand for bikeshare programs in other U.S. cities as well.
 
 ### Files used
-Include the files used
+Files include:
+bikeshare.py
+
+Raw data is not included in this project.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Credits to the Udacity Programming for Data Science Nanodegree Program that has provided templates for code and project resources. 
