@@ -15,7 +15,9 @@ day_names = {'monday':0,'tuesday':1,'wednesday':2,'thursday':3,'friday':4,\
 
 def get_filters():
     """
-    Asks user to specify a city, month, and day to analyze.
+    Asks user to specify specific cities, months, and days to analyze.
+    If the user types in an invalid city, month, or day, it will loop until
+    a valid input is received.
 
     Returns:
         (list of str) city - names of the city to analyze
@@ -98,7 +100,7 @@ def get_filters():
 
 def load_data(cities, months, days):
     """
-    Loads data for the specified city and filters by month and day if applicable.
+    Loads data for the specified cities and filters by month and day if applicable.
 
     Args:
         (list of str) city - names of the city to analyze
